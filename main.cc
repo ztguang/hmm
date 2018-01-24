@@ -22,6 +22,14 @@ void printPredictionEstimation(size_t stateInd,
               << "f-measure=" << estimation.fMeasure << '\n';
 }
 
+/*
+真阳性 - 本身是对的，你当成对的了
+假阳性 - 本身是错的，你当成对的了
+真阴性 - 本书是错的，你当成错的了
+假阴性 - 本身是对的，你当成错的了
+*/
+
+
 int main(int argc, char* argv[])
 {
     // section: check arguments and prepare input streams
