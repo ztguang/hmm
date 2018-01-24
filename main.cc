@@ -23,10 +23,10 @@ void printPredictionEstimation(size_t stateInd,
 }
 
 /*
-真阳性 (True Positives) - 本身是对的，你当成对的了
-假阳性 (False Positives) - 本身是错的，你当成对的了
-真阴性 (True Negatives) - 本书是错的，你当成错的了
-假阴性 (False Negatives) - 本身是对的，你当成错的了
+真阳性 (True Positive) - 本身是对的，你当成对的了
+假阳性 (False Positive) - 本身是错的，你当成对的了
+真阴性 (True Negative) - 本书是错的，你当成错的了
+假阴性 (False Negative) - 本身是对的，你当成错的了
 */
 
 
