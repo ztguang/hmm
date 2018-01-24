@@ -4,6 +4,10 @@
 #include <iostream>
 #include <cstddef>
 
+//error: ‘accumulate’ is not a member of ‘std’
+//is missing a header needed for std::accumulate. Adding #include <numeric> to hmm.cc fixes the problem
+#include <numeric>
+
 #include "hmm.h"
 
 using std::vector;
